@@ -1,0 +1,49 @@
+.Slider {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  margin: auto;
+  box-sizing: border-box;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font: inherit;
+}
+
+.Text {
+  width: 40%;
+  margin: auto;
+  color: lightgrey;
+}
+
+.Selected {
+  color: black;
+  /* font-weight: bold; */
+}
+
+.Box {
+  width: 2.1em;
+  height: 1em;
+  background-color: lightgrey;
+  border-radius: 5%;
+  /* border: 1px solid lightgrey; */
+  cursor: pointer;
+}
+
+.Toggle {
+  width: 1em;
+  height: 1em;
+  /* border: 1px solid green; */
+  background-color: green;
+  border-radius: 5%;
+  /* margin-top: 1px;
+  margin-bottom: 1px; */
+}
+
+.Left {
+  margin-left: 0em;
+}
+
+.Right {
+  margin-left: 1.1em;
+}
